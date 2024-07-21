@@ -1,0 +1,66 @@
+
+.start{
+    display: inline-block;
+    height:500px; 
+    width: 100%;
+    padding-left: 535px;
+    padding-top: 180px; 
+    background-color: #90a955;
+    color: #ffffff;
+}
+
+h1{
+    font-family: "Playwrite BE VLG", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+h2{
+ 
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+
+}
+
+.profile-img{
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 550px;
+    display: block;
+    }
+
+.text1{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  color: black;  
+  width: 20%;
+  margin: auto;  
+  margin-top: 30px; 
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    /* gap: 15px; */
+    row-gap: 15px;
+    
+}
+
+.cupcake, .webdev{
+    border-radius: 100px;
+}
+
+h3 {
+    color: #90a955;
+}
