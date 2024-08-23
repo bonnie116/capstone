@@ -88,8 +88,10 @@ h1{
 }
 @media(max-width: 600px){
   .spare{
-    display: inline;
-    justify-items: center;
+    display: grid;
+        grid-template-columns: 1fr;  
+    position: relative;
+    left: 60px;
     
   }
 }
