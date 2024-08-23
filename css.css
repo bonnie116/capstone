@@ -86,6 +86,11 @@ h1{
   left: 150px;
 
 }
+@media(max-width: 600px){
+  .spare{
+    grid-template-columns: 1fr;
+  }
+}
 
 .explain{
   font-family: "Open Sans", sans-serif;
