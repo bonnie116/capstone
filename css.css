@@ -88,12 +88,10 @@ h1{
 }
 @media(max-width: 600px){
   .spare{
-    display: grid;
-        grid-template-columns: 1fr;  
-    position: relative;
-    left: 60px;
-    
-  }
+    display: inline;
+        position: relative;
+        left: 20px;
+    }
 }
 
 .explain{
