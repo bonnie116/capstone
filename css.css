@@ -89,6 +89,7 @@ h1{
 @media(max-width: 600px){
   .spare{
     grid-template-columns: 1fr;
+    width: 500px;
   }
 }
 
