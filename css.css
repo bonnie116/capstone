@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .top{
     background-color: #789BAD;
     height: 600px;
@@ -220,4 +225,5 @@ a{
   text-align: right;
   padding-top:20px ;
 }
+
 
